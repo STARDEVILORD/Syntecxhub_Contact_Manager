@@ -5,7 +5,7 @@ import locationIcon from "../assets/Location.png";
 import axios from "axios";
 import "./ContactPage.css";
 
-const MESSAGES_API_URL = "http://127.0.0.1:5000/api/messages";
+const MESSAGES_API_URL = "https://syntecxhub-contact-manager.onrender.com/api/messages";
 
 function ContactPage() {
   const [formData, setFormData] = useState({

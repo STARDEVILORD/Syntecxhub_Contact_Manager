@@ -17,16 +17,14 @@ function ContactList({ contacts, onEdit, onDelete }) {
           </div>
           <div className="card-actions">
             <button className="btn btn-edit" onClick={() => onEdit(contact)}
-              <button 
-              onClick={() => onEdit(contact)} 
               style={{ 
-                backgroundColor: '#d68910', /* Your orange/yellow color */
+                backgroundColor: '#d68910',
                 color: 'black', 
                 border: 'none', 
                 padding: '8px 16px', 
                 borderRadius: '4px', 
                 cursor: 'pointer',
-                marginRight: '10px' /* <-- THIS IS THE MAGIC LINE */
+                marginRight: '10px' 
               }}
             >
               Edit

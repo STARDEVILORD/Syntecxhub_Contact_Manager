@@ -1,18 +1,17 @@
-const express = require("express");
+const express = require('express');
 const router = express.Router();
-const Contact = require("../models/Contact");
+const auth = require('../middleware/auth'); 
+const Contact = require('../models/Contact');
 
 // POST: Create a new contact
 router.post('/', auth, async (req, res) => {
     try {
         const { name, email, phone } = req.body;
-
-        // Create the new contact and ATTACH THE USER ID!
         const newContact = new Contact({
             name,
             email,
             phone,
-            user: req.user.id // <-- THIS IS THE MISSING MAGIC LINE
+            user: req.user.id
         });
 
         const contact = await newContact.save();

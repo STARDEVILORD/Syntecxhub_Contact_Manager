@@ -5,7 +5,7 @@ import ContactList from "./components/ContactList";
 import ContactPage from "./components/ContactPage";
 import "./App.css";
 
-const API_URL = "http://192.168.1.15:5000/api/contacts";
+const API_URL = "https://syntecxhub-contact-manager.onrender.com/api/contacts";
 const AUTH_URL = "http://localhost:5000/api/auth";
 
 function App() {

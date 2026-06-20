@@ -4,6 +4,7 @@ Full-stack MERN application for securely storing and managing personal contacts 
 
 🌐 Live Demo
 Try it here: https://contact-manager-app-fu0p.onrender.com
+
 Create an account to access your secure contact vault, or use the public page to send a direct message.
 
 📌 Overview
@@ -54,15 +55,16 @@ Syntecxhub_Contact_Manager/
 
 ⚙️ Setup
 
-git clone https:https://github.com/STARDEVILORD/Syntecxhub_CONTACT_MANAGER.git
-cd Syntecxhub_Contact_Manager
+$git clone https://github.com/STARDEVILORD/Syntecxhub_CONTACT_MANAGER.git
+
+$ cd Syntecxhub_Contact_Manager
 
 # 1. Setup the Backend
 
 cd backend
 npm install
 
-# Create a .env file in the backend folder with your MONGO_URI and JWT_SECRET
+Create a .env file in the backend folder with your MONGO_URI and JWT_SECRET
 
 # 2. Setup the Frontend
 
